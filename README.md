@@ -216,8 +216,21 @@ WHERE
 # Results
 
  - What does the dashboard look like?
- - 
-![Data-Type Image](assets/images/Sales Dashboard.png)
+  
+![Data-Type Image](assets/images/Sales_Dashboard.png)
+
+# DAX Measures
+
+# 1. Total Sales 
+
+``` DAX
+
+Total Sales = 
+VAR totalSales = SUM(sales_performance[sales])
+RETURN totalSales
+
+```
+
 
 
 
