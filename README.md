@@ -82,63 +82,6 @@ Some of the data visuals that may be appropriate in answering our questions incl
 3. Map
 4. Treemap
 
-### Dashboard Layout
-
--------------------------
-|        Key Metrics        |
-|                           |
-|  Total Products Sold: ###|
-|  Total Sales: ###         |
-|  Total Profits: ###     |
-|  Avg Order Value: ###  |
-|                          |
--------------------------
-
-|  Top 10 Most Frequent Customers  |
-|                                  |
-|  ██████████  ████████  ████████  |
-|  Tom         Tana       Chand     |
-|  ████████    ████████  ████████  |
-|  Greg        Sean       Bart      |
-|  ████████    ████████  ████████  |
-|  Nata        Fred       Jane      |
-|  ████████    ████████  ████████  |
-|  Hunter   
-|     (Stacked Column Chart)
-------------------------------------
-
-|      Sales Distribution by Category    |
-|      (Postion: Bottom Left)            |
-|       ● Technology                     |
-|       ● Office Supplies                |
-|       ● Furniture                      |
-|                                        |
-|  (Pie Chart)                           |
-------------------------------------------
-
-|        Sales Distribution by Region       |
-|                                           |
-|  North America   ●                        |
-|  Europe          ●                        |
-|  Asia            ●                        |
-|  Africa          ●                        |
-|  South America   ●                        |
-|  Australia       ●                        |
-|                                           |
-|  (Map Visualization) (Position: Top Right)|
---------------------------------------------
-
-|        Top 10 Profitable Products         |
-|                                           |
-|  ██████████  ████████  ████████           |
-|  Canon       Motorola   Sauder            |
-|  ████████    ████████  ████████           |
-|  Nokia       Cisco      Hoover            |
-|  ████████    ████████  ████████           |
-|  Harbour     Nokia      Belkin
-|   (Treemap) 
---------------------------------------------
-
 
 ### Tools
 
