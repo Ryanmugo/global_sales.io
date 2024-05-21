@@ -51,3 +51,103 @@
 
 - Our dataset is sourced from Kaggle, specifically from an Excel extract available at [this link](https://www.kaggle.com/datasets/laibaanwer/superstore-sales-dataset?select=SuperStoreOrders.csv). You can access it there.
 
+# Stages
+
+ - Design
+ - Development
+ - Testing
+ - Analysis
+
+## Design
+
+### Dashboard components required
+
+ - What should the dashboard contain based on the requirements provided?
+
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+
+ - 1. Who are the top most frequent customers?
+ - 2. What is the distribution of sales by region?
+ - 3. How is the sales distribution segmented by country?
+ - 4. What are the top profitable products?
+
+### Dashboard Mockup
+
+- What should it look like?
+
+Some of the data visuals that may be appropriate in answering our questions include:
+
+1. Stacked column chart
+2. Pie chart
+3. Map
+4. Treemap
+
+### Dashboard Layout
+
+-------------------------
+|        Key Metrics        |
+|                           |
+|  Total Products Sold: ###|
+|  Total Sales: ###         |
+|  Total Profits: ###     |
+|  Avg Order Value: ###  |
+|                          |
+-------------------------
+
+|  Top 10 Most Frequent Customers  |
+|                                  |
+|  ██████████  ████████  ████████  |
+|  Tom         Tana       Chand     |
+|  ████████    ████████  ████████  |
+|  Greg        Sean       Bart      |
+|  ████████    ████████  ████████  |
+|  Nata        Fred       Jane      |
+|  ████████    ████████  ████████  |
+|  Hunter   
+|     (Stacked Column Chart)
+------------------------------------
+
+|      Sales Distribution by Category    |
+|      (Postion: Bottom Left)            |
+|       ● Technology                     |
+|       ● Office Supplies                |
+|       ● Furniture                      |
+|                                        |
+|  (Pie Chart)                           |
+------------------------------------------
+
+|        Sales Distribution by Region       |
+|                                           |
+|  North America   ●                        |
+|  Europe          ●                        |
+|  Asia            ●                        |
+|  Africa          ●                        |
+|  South America   ●                        |
+|  Australia       ●                        |
+|                                           |
+|  (Map Visualization) (Position: Top Right)|
+--------------------------------------------
+
+|        Top 10 Profitable Products         |
+|                                           |
+|  ██████████  ████████  ████████           |
+|  Canon       Motorola   Sauder            |
+|  ████████    ████████  ████████           |
+|  Nokia       Cisco      Hoover            |
+|  ████████    ████████  ████████           |
+|  Harbour     Nokia      Belkin
+|   (Treemap) 
+--------------------------------------------
+
+
+### Tools
+
+## Tools and Their Purposes
+
+| Tool        | Purpose                                            |
+|-------------|----------------------------------------------------|
+| Excel       | Exploring the data                                 |
+| SQL Server  | Cleaning, testing, and analyzing the data          |
+| Power BI    | Visualizing the data via interactive dashboards    |
+| GitHub      | Hosting the project documentation and version control |
+
