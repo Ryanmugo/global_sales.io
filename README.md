@@ -49,5 +49,5 @@
 
 # Data Source
 
-- Our dataset is sourced from Kaggle, specifically from an Excel extract available at this link. You can access it there.
+- Our dataset is sourced from Kaggle, specifically from an Excel extract available at [this link](https://www.kaggle.com/datasets/laibaanwer/superstore-sales-dataset?select=SuperStoreOrders.csv). You can access it there.
 
