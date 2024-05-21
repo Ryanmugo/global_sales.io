@@ -231,8 +231,36 @@ RETURN totalSales
 
 ```
 
+# 2. Total Profits
+
+``` DAX
+
+Total Profits = 
+VAR totalProfits = SUM(sales_performance[profit])
+RETURN totalProfits
+
+```
+
+# 3. Total Products Sold
+
+``` DAX
+
+Total Products Sold = 
+VAR totalProductsSold = DISTINCTCOUNT(product_name)
+RETURN totalProductsSold
+
+```
 
 
+# 4. Average Order Value
+
+``` DAX
+
+Average Order Value = 
+VAR avgOrderValue = SUM(sales_performance[sales]) / DISTINCTCOUNT(sales_performance[order_id])
+RETURN avgOrderValue
+
+```
 
 
 
