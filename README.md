@@ -46,6 +46,8 @@
 
     - To create an interactive and insightful Power BI dashboard that provides the Sales Department with key insights into customer behavior, sales performance across regions, product category performance and profitability. This will help the department make informed decisions based on statistics and visual data representations. 
    
-    
 
+# Data Source
+
+- Our dataset is sourced from Kaggle, specifically from an Excel extract available at this link. You can access it there.
 
