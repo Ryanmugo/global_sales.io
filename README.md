@@ -165,7 +165,7 @@ Here are the data quality tests:
 
 ``` sql
 /*
-# Count the total number of records (or rows) are in the SQL view
+ Count the total number of records (or rows) are in the SQL view
 */
 -- TEST 1: ROW COUNT CHECK:
 
@@ -173,4 +173,5 @@ SELECT
   COUNT(*) AS no_of_rows
 FROM sales_performance
 
-
+```
+![Row-Count Image](assets/images/Row_count.png)
