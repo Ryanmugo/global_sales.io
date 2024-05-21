@@ -14,7 +14,7 @@
   - [Pseudocode](#Pseudocode)
   - [Data Exploration](#Data-Exploration)
   - [Data Cleaning](#Data-Cleaning)
-  - [Create the SQL View](#Create-the-SQL-View)
+  - [Creating the SQL View](#Create-the-SQL-View)
 - [Testing](#Testing)
   - [Data Quality Tests](#Data-Quality-Tests)
 - [Visualization](#Visualization)
@@ -154,3 +154,23 @@ FROM
    SuperStoreOrders;
 
 ```
+
+# Testing
+
+ - What data quality and validation checks are you going to create?
+
+Here are the data quality tests: 
+
+# Row count check
+
+``` sql
+/*
+# Count the total number of records (or rows) are in the SQL view
+*/
+-- TEST 1: ROW COUNT CHECK:
+
+SELECT 
+  COUNT(*) AS no_of_rows
+FROM sales_performance
+
+
