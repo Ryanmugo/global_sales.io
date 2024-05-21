@@ -16,7 +16,6 @@
   - [Data Cleaning](#Data-Cleaning)
   - [Creating the SQL View](#Create-the-SQL-View)
 - [Testing](#Testing)
-  - [Data Quality Tests](#Data-Quality-Tests)
 - [Visualization](#Visualization)
   - [Results](#Results)
   - [DAX Measures](#DAX-Measures)
@@ -210,6 +209,18 @@ WHERE
 ```
 - ***Output***
 ![Data-Type Image](assets/images/data_type.png)
+
+
+# Visualization
+
+# Results
+
+ - What does the dashboard look like?
+ - 
+![Data-Type Image](assets/images/Sales Dashboard.png)
+
+
+
 
 
 
