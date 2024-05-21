@@ -14,7 +14,6 @@
   - [Pseudocode](#Pseudocode)
   - [Data Exploration](#Data-Exploration)
   - [Data Cleaning](#Data-Cleaning)
-  - [Transforming the Data](#Transforming-the-Data)
   - [Create the SQL View](#Create-the-SQL-View)
 - [Testing](#Testing)
   - [Data Quality Tests](#Data-Quality-Tests)
@@ -42,7 +41,7 @@
   
    - ***4. Top Profitable Products:***  Identifying the products that yield the most profit.
   
- - ## What is the ideal solution?
+ - # What is the ideal solution?
 
     - To create an interactive and insightful Power BI dashboard that provides the Sales Department with key insights into customer behavior, sales performance across regions, product category performance and profitability. This will help the department make informed decisions based on statistics and visual data representations. 
    
@@ -66,12 +65,12 @@
 
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 
- - 1. Who are the top most frequent customers?
- - 2. What is the distribution of sales by region?
- - 3. How is the sales distribution segmented by country?
- - 4. What are the top profitable products?
+ -  Who are the top most frequent customers?
+ -  What is the distribution of sales by region?
+ -  How is the sales distribution segmented by country?
+ -  What are the top profitable products?
 
-### Dashboard Mockup
+# Dashboard Mockup
 
 - What should it look like?
 
@@ -111,7 +110,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
    9. Publish the data to GitHub Pages
 
 
- ## Data Cleaning
+ # Data Cleaning
 
  - What do we expect the clean data to look like? (What should it contain? What constraints should we apply to it?)
 
@@ -142,3 +141,16 @@ Tabular representation of the expected schemafor the clean data:
 | product_name      | VARCHAR   | NO       |
 | sales             | SMALLINT  | NO       |
 | profit            | FLOAT     | NO       |
+
+# Creating the SQL View
+
+```sql
+-- Creation of View
+
+CREATE VIEW sales_performance AS
+SELECT 
+   order_id,customer_name, segment, region, category, product_name, sales, profit  
+FROM
+   SuperStoreOrders;
+
+```
