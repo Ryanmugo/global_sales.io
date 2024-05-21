@@ -163,6 +163,7 @@ Here are the data quality tests:
 
 # Row count check
 
+- ***SQL Query***
 ``` sql
 /*
  Count the total number of records (or rows) are in the SQL view
@@ -174,4 +175,46 @@ SELECT
 FROM sales_performance
 
 ```
+- ***Output***
 ![Row-Count Image](assets/images/Row_count.png)
+
+# Column check
+
+- ***SQL Query***
+``` sql
+-- TEST 2: COLUMN COUNT CHECK:
+SELECT 
+  COUNT(*) AS no_of_columns
+FROM 
+  INFORMATION_SCHEMA.COLUMNS
+WHERE 
+  TABLE_NAME = 'sales_performance'
+
+```
+
+- ***Output***
+![Column-Count Image](assets/images/column_check.png)
+
+
+# Data type check
+
+- ***SQL Query***
+``` sql
+  SELECT 
+  COLUMN_NAME, DATA_TYPE
+FROM 
+  INFORMATION_SCHEMA.COLUMNS
+WHERE 
+  TABLE_NAME = 'sales_performance'
+
+```
+- ***Output***
+![Data-Type Image](assets/images/data_type.png)
+
+
+
+
+
+
+
+
