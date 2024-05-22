@@ -263,6 +263,8 @@ RETURN avgOrderValue
 
 # Analysis
 
+# Findings
+
  - What did we find?
 
 - ***1. Who are the top most frequent customers?***
