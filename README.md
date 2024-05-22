@@ -65,7 +65,7 @@ To understand what it should contain, we need to figure out what questions we ne
 
  -  Who are the top most frequent customers?
  -  What is the distribution of sales by region?
- -  How is the sales distribution segmented by country?
+ -  How is the sales distribution segmented by category?
  -  What are the top profitable products?
 
 # Dashboard Mockup
@@ -261,6 +261,66 @@ RETURN avgOrderValue
 
 ```
 
+# Analysis
+
+ - What did we find?
+
+- ***1. Who are the top most frequent customers?***
+
+|      | customer_name        | total_sales     |
+|------|----------------------|-----------------|
+| 1    | Tom Ashbrook         | 40489           |
+| 2    | Tamara Chand         | 37453           |
+| 3    | Greg Tran            | 35552           |
+| 4    | Christopher Conant   | 35187           |
+| 5    | Sean Miller          | 35170           |
+| 6    | Bart Watters         | 32315           |
+| 7    | Natalie Fritzler     | 31778           |
+| 8    | Fred Hopkins         | 30404           |
+| 9    | Jane Waco            | 30288           |
+| 10   | Hunter Lopez         | 30246           |
+
+- ***2. What is the distribution of sales by region?***
+
+|      | customer_name        | total_sales     | total_profits   |
+|------|----------------------|-----------------|-----------------|
+| 1    | Central              | 2822399         | 311404          |
+| 2    | South                | 1600960         | 140356          |
+| 3    | North                | 1248192         | 194598          |
+| 4    | Oceania              | 1100207         | 121667          |
+| 5    | Southeast Asia       | 884438          | 17852           |
+| 6    | North Asia           | 848349          | 165578          |
+| 7    | EMEA                 | 806184          | 43898           |
+| 8    | Africa               | 783776          | 88872           |
+| 9    | Central Asia         | 752839          | 132480          |
+| 10   | West                 | 725514          | 108418          |
+| 11   | East                 | 678834          | 91523           |
+| 12   | Carribean            | 324281          | 34571           |
+| 13   | Canada               | 66932           | 17817           |
+
+- ***3. How is the sales distribution segmented by category?***
+
+|      | category              | total_sales     | profits         |
+|------|----------------------|-----------------|-----------------|
+| 1    | Technology           | 4744691         | 663779          |
+| 2    | Furniture            | 4110884         | 286782          |
+| 3    | Office Supplies      | 3787330         | 518474          |
+
+
+- ***4. What are the top profitable products?***
+
+|      | product_name         | profits         |
+|------|----------------------|-----------------|
+| 1    | Canon imageCLASS 2200| 25200           |
+| 2    | Cisco SmartPhone, FS | 17239           |
+| 3    | Motorola Full Size   | 17027           |
+| 4    | Hoover Stove, Red    | 11808           |
+| 5    | Sauder Classic       | 10672           |
+| 6    | Harbour Creations    | 10427           |
+| 7    | Nokia Full Size      | 9938            |
+| 8    | Cisco,Caller ID      | 9787            |
+| 9    | Nokia,Caller ID      | 9465            |
+| 10   | Belkin Router,USB    | 8955            |
 
 
 
