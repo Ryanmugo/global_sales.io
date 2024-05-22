@@ -19,13 +19,12 @@
   - [Results](#Results)
   - [DAX Measures](#DAX-Measures)
 - [Analysis](#Analysis)
-  - [Findings](#Findings)
-- [Conclusion](#Conclusion)
+  - [Findings and Discoveries](#Findings-and-Discoveries)
 
 
 # Objective
 
- ## What is the key main point?
+ # What is the key main point?
 
  - The Sales Department is interested in gaining insights into the following areas:
 
@@ -106,7 +105,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
    9. Publish the data to GitHub Pages
 
 
- # Data Cleaning
+# Data Cleaning
 
  - What do we expect the clean data to look like? (What should it contain? What constraints should we apply to it?)
 
@@ -261,7 +260,7 @@ RETURN avgOrderValue
 
 # Analysis
 
-# Findings
+# Findings and Discoveries
 
  - What did we find?
 
@@ -340,11 +339,3 @@ ORDER BY
 ```
 
 ![Image](assets/images/q4.png)
-
-
-
-
-
-
-
-
