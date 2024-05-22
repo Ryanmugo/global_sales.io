@@ -2,7 +2,7 @@
 
 ![excel-to-powerbi-image](assets/images/Kaggle_to_powerbi.png)
 
-# Table of Contents
+# Table of Contents  
 
 - [Objective](#Objective)
 - [Data Source](#Data-Source)
