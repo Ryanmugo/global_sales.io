@@ -209,7 +209,7 @@ WHERE
 
  - What does the dashboard look like?
   
-![Data-Type Image](assets/images/Sales_Dashboard.png)
+![Data-Dashboard Image](assets/images/Sales_Dashboard.png)
 
 # DAX Measures
 
