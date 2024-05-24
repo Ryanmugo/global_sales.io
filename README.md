@@ -220,7 +220,7 @@ WHERE
 Total Sales = 
 VAR totalSales = SUM(sales_performance[sales])
 RETURN totalSales
-
+   
 ```
 
 # 2. Total Profits
